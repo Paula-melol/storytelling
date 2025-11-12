@@ -57,3 +57,16 @@ timeLineNotification.to(".l-homepage-flash", {
 });
 
 // animation homepage
+
+gsap.to(".slider-scene5", {
+  scrollTrigger: {
+    trigger: ".slider-scene5",
+    start: "top top",
+    end: "+=300%",
+    pin: true,
+    scrub: true,
+    markers: true,
+  },
+  x: "-75%",
+  ease: "sine.inOut",
+});
