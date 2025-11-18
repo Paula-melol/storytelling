@@ -58,15 +58,84 @@ timeLineNotification.to(".l-homepage-flash", {
 
 // animation homepage
 
-gsap.to(".slider-scene5", {
+gsap.to(".l-homepage-scene2-bulle1", {
+  opacity: 1,
+  x: "50%",
   scrollTrigger: {
-    trigger: ".slider-scene5",
+    trigger: "l-homepage-scene2-background",
     start: "top top",
-    end: "+=300%",
-    pin: true,
-    scrub: true,
-    markers: true,
+    start: "-=800",
+    scrub: 1,
   },
-  x: "-75%",
-  ease: "sine.inOut",
 });
+
+gsap.to(".l-homepage-scene2-bulle2", {
+  opacity: 1,
+  x: "-50%",
+  scrollTrigger: {
+    trigger: "l-homepage-scene2-background",
+    start: "top top",
+    start: "-=800",
+    scrub: 1,
+  },
+});
+
+gsap.to(".l-homepage-scene2-bulle3", {
+  opacity: 1,
+  y: "100%",
+  scrollTrigger: {
+    trigger: "l-homepage-scene2-background",
+    start: "top top",
+    start: "-=800",
+    scrub: 1,
+  },
+});
+
+gsap.to(".l-homepage-scene4-bulle1", {
+  opacity: 1,
+  y: "200%",
+  scrollTrigger: {
+    trigger: "l-homepage-scene2-background",
+    start: "top top",
+    scrub: 1,
+  },
+});
+
+gsap.to(".l-homepage-scene4-bulle2", {
+  opacity: 1,
+  y: "250%",
+  scrollTrigger: {
+    trigger: ".l-homepage-scene4-background",
+    start: "top top",
+    start: "-=800",
+    scrub: 1,
+  },
+});
+
+gsap.to(".l-homepage-scene4-bulle3", {
+  opacity: 1,
+  y: "250%",
+  scrollTrigger: {
+    trigger: ".l-homepage-scene4-background",
+    start: "top top",
+    start: "-=800",
+    scrub: 1,
+  },
+});
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".l-slider-scene5",
+      start: "top top",
+      end: "+=300%",
+      pin: true,
+      scrub: true,
+      markers: true,
+    },
+  })
+  .to(".l-slider-scene5", {
+    x: "-75%",
+    ease: "sine.inOut",
+  })
+  .to(".l-black-car-scene5", { x: "100%" }, 0);

@@ -1,0 +1,37 @@
+section {
+  display: inline-flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.section-bd-image {
+  width: 412px;
+  height: 579px;
+}
+
+.section-info {
+  display: flex;
+  width: 629px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 62px;
+}
+
+section p {
+  color: #fffb89;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 200;
+  letter-spacing: 0.46px;
+  height: 329px;
+}
+
+.buying-button {
+  display: flex;
+  width: 413px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}

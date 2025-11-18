@@ -9,7 +9,9 @@
   text-transform: capitalize;
 }
 footer {
-  background: #111;
+  padding-inline: 0%;
+  color: #fffb89;
+  font-family: Inter;
 }
 
 .footer-contact-contain {
@@ -27,15 +29,5 @@ footer {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-button {
   color: #fffb89;
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  letter-spacing: 0.32px;
-  text-transform: capitalize;
 }

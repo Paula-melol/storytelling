@@ -197,57 +197,68 @@ Scene 4
     rgb(0, 0, 0) 100%
   );
 }
+
+.l-slider-scene5 {
+  position: relative;
+}
 .l-homepage-scene5-background {
   width: 180%;
   height: auto;
 }
 
+.l-black-car-scene5 {
+  width: 18%;
+  position: absolute;
+  top: 0%;
+  left: 55vw;
+}
+
 /* ************************************
 WANTEDDDDDDD
 ************************************ */
-.wanted {
+.l-wanted {
   position: relative;
 }
 
-.wanted-background {
+.l-wanted-background {
   width: 100%;
 }
 
-.card img {
+.l-card img {
   width: 100%;
 }
 
-.card-one {
+.l-card-one {
   position: absolute;
-  top: 300px;
+  top: 100px;
   left: 40px;
   transition: transform 0.2s;
   width: 30%;
 }
 
-.card-one:hover {
+.l-card-one:hover {
   transform: scale(1.1);
 }
-.card-two {
+.l-card-two {
   position: absolute;
   top: 70%;
   left: 35%;
   width: 30%;
   transition: transform 0.2s;
 }
-.card-two:hover {
+.l-card-two:hover {
   transform: scale(1.1);
 }
 
-.card-three {
+.l-card-three {
   position: absolute;
-  top: 25%;
-  left: 65%;
+  top: 2%;
+  left: 60%;
   width: 30%;
   transition: transform 0.2s;
 }
 
-.card-three:hover {
+.l-card-three:hover {
   transform: scale(1.1);
 }
 
