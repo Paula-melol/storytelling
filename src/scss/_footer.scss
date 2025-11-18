@@ -1,0 +1,41 @@
+.footer-title {
+  color: #fffb89;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+}
+footer {
+  background: #111;
+}
+
+.footer-contact-contain {
+  color: #fffb89;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+}
+
+.footer-media-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+  color: #fffb89;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  text-transform: capitalize;
+}
