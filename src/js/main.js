@@ -54,6 +54,7 @@ timeLineNotification.to(".l-homepage-title", {
 timeLineNotification.to(".l-homepage-flash", {
   opacity: 1,
   scale: "1",
+  duration: 2,
 });
 
 // animation homepage

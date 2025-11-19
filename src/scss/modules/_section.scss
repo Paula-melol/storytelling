@@ -1,7 +1,7 @@
 section {
   display: inline-flex;
   align-items: center;
-  padding: 60px 0;
+  padding: 100px 0;
 }
 
 .section-bd-image {
@@ -25,13 +25,23 @@ section p {
   font-weight: 200;
   letter-spacing: 0.46px;
   height: 329px;
+  padding: 0 50px;
 }
 
-.buying-button {
+.section-buying-button {
   display: flex;
   width: 413px;
   justify-content: center;
   align-items: center;
   gap: 10px;
   width: 100%;
+  padding: 0 50px;
+}
+section img {
+  width: 100%;
+  transition: transform 0.2s;
+}
+
+section img:hover {
+  transform: scale(1.1);
 }
