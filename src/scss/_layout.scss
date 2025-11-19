@@ -68,10 +68,6 @@
   opacity: 0;
 }
 
-/* ************************************
-Scene 1
-************************************ */
-
 .l-homepage-story-wrap {
   position: relative;
 }
@@ -102,9 +98,7 @@ Scene 1
   left: 0;
   z-index: 1;
 }
-/* ************************************
-Scene 2
-************************************ */
+
 .l-homepage-scene2 {
   position: relative;
 }
@@ -150,22 +144,14 @@ Scene 2
     rgb(0, 0, 0) 100%
   );
 }
-/* ************************************
-Scene 3
-************************************ */
+
 .l-homepage-scene3-background {
   width: 100%;
   position: relative;
 }
 
-/* ************************************
-Scene 4
-************************************ */
-
 .l-homepage-scene4-background {
   width: 100%;
-  // position: absolute;
-  // top: -24vw;
 }
 
 .l-homepage-scene4 {
@@ -239,9 +225,7 @@ Scene 4
   top: -7%;
   right: 1vw;
 }
-/* ************************************
-WANTEDDDDDDD
-************************************ */
+
 .l-wanted {
   position: relative;
 }

@@ -62,8 +62,6 @@ timeLineNotification.to(".l-homepage-flash-wrapper", {
   scale: "1",
 });
 
-// animation homepage
-
 gsap.to(".l-homepage-scene2-bulle1", {
   opacity: 1,
   x: "50%",
