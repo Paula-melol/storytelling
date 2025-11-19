@@ -135,7 +135,7 @@ gsap
       end: "+=300%",
       pin: true,
       scrub: true,
-      markers: true,
+      // markers: true,
     },
   })
   .to(".l-slider-scene5", {
