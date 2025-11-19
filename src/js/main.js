@@ -51,10 +51,15 @@ timeLineNotification.to(".l-homepage-title", {
   duration: 1,
 });
 
-timeLineNotification.to(".l-homepage-flash", {
+timeLineNotification.to(".l-homepage-flash-wrapper", {
   opacity: 1,
   scale: "1",
   duration: 2,
+});
+
+timeLineNotification.to(".l-homepage-flash-wrapper", {
+  opacity: 0,
+  scale: "1",
 });
 
 // animation homepage
